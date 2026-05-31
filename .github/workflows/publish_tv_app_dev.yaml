@@ -54,7 +54,7 @@ jobs:
             - name: Build APK
               run: |
                   cd simple_live_tv_app
-                  flutter build apk --debug --split-per-abi
+                  flutter build apk --release --split-per-abi
 
             #上传APK至Artifacts
             - name: Upload APK to Artifacts
