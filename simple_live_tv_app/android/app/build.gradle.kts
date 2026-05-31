@@ -52,9 +52,9 @@ android {
 
     buildTypes {
         release {
-           signingConfig signingConfigs.debug  // 👈 就改这一行
-           minifyEnabled false
-           shrinkResources false
+        isMinifyEnabled = false
+        isShrinkResources = false
+        signingConfig = signingConfigs.getByName("debug")
         }
     }
 }
