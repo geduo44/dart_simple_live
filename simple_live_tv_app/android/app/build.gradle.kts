@@ -63,9 +63,9 @@ android {
            signingConfig signingConfigs.debug  // 👈 就改这一行
            minifyEnabled false
            shrinkResources false
-    }
-            )
-        }
+    //}
+            //)
+       // }
     }
 }
 
